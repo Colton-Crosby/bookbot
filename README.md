@@ -1,14 +1,11 @@
 # BookBot
 BookBot is my first project!
 
-BookBot is an automated tool designed to help you manage and organize your book collection. It provides features such as adding, removing, and searching for books in your library.
+BookBot is an automated tool designed to help you manage and organize your book collection. 
 
 ## Features
 
-- **Add Books**: Easily add new books to your collection.
-- **Remove Books**: Remove books that you no longer need.
-- **Search Books**: Quickly find books by title, author, or genre.
-- **List Books**: Display all books in your collection.
+Currently only works on provided book, Frankenstein. Counts every word in the document, converts all words to lowercase and counts the number of times each is found and returns it in a report.
 
 ## Installation
 
@@ -17,7 +14,6 @@ To install BookBot, clone the repository and install the necessary dependencies:
 ```bash
 git clone https://github.com/Colton-Crosby/bookbot.git
 cd bookbot
-npm install
 ```
 
 ## Usage
@@ -25,7 +21,7 @@ npm install
 To start using BookBot, run the following command:
 
 ```bash
-npm start
+python3 main.py
 ```
 
 ## Contributing
